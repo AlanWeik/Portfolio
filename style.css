@@ -144,19 +144,7 @@ a:hover {
 
 /* Sections */
 
-section {
-    padding-top: 4vh;
-    height: 96vh;
-    margin: 0 10rem;
-    box-sizing: border-box;
-    min-height: fit-content;
-}
-
-.section-container {
-    display: flex;
-}
-
-/* Profile Section  */
+/* Profil Section */
 
 #profile {
     display: flex;
@@ -172,9 +160,9 @@ section {
     margin: auto 0;
 }
 
-.sextion-text {
-    text-align: center;
+.section__text {
     align-self: center;
+    text-align: center;
 }
 
 .section__text p {
@@ -185,9 +173,9 @@ section {
     text-align: center;
 }
 
-.section__text__p1 {
-font-size: 1.75rem;
-margin-bottom: 1rem;
+.section__text__p2 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
 }
 
 .title {
@@ -202,7 +190,7 @@ margin-bottom: 1rem;
     gap: 1rem;
 }
 
-/* Icons  */
+/* Icons */
 
 .icon {
     cursor: pointer;
