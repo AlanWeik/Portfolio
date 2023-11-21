@@ -264,6 +264,12 @@ section {
   gap: 1rem;
 }
 
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* ABOUT SECTION */
 
 #about {
