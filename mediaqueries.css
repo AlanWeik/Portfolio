@@ -1,4 +1,23 @@
-@media screen and (max-width: 1400px) {
+@media screen and (min-width: 1500px) {
+    .projects-containers {
+        flex-wrap: wrap;
+        max-width: 65vw;
+        margin: auto;
+    }
+    
+    #profile-section {
+        height: 82vh;
+        margin-bottom: 6rem;
+    }
+    
+    .about-containers {
+        flex-wrap: wrap;
+        margin-top: 2rem;
+    }
+}
+
+
+@media screen and (max-width: 1500px) {
     #profile-section {
         height: 82vh;
         margin-bottom: 6rem;
@@ -6,6 +25,7 @@
 
     .about-containers {
         flex-wrap: wrap;
+        margin-top: 2rem;
     }
 }
 
